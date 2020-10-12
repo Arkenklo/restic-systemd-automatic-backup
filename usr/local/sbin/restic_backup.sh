@@ -17,9 +17,9 @@ trap exit_hook INT TERM
 
 # How many backups to keep.
 RETENTION_DAYS=14
-RETENTION_WEEKS=16
-RETENTION_MONTHS=18
-RETENTION_YEARS=3
+RETENTION_WEEKS=0
+RETENTION_MONTHS=12
+RETENTION_YEARS=4
 
 # What to backup, and what to not
 BACKUP_PATHS="/ /boot /home"
